@@ -1,0 +1,114 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Completed\\OMS_ORDER_ID_LAMBDA\\OMS_ORDER_ID_TRAFFIC_LAMBDA.csproj": {}
+  },
+  "projects": {
+    "D:\\Completed\\OMS_ORDER_ID_LAMBDA\\OMS_ORDER_ID_TRAFFIC_LAMBDA.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Completed\\OMS_ORDER_ID_LAMBDA\\OMS_ORDER_ID_TRAFFIC_LAMBDA.csproj",
+        "projectName": "OMS_ORDER_ID_TRAFFIC_LAMBDA",
+        "projectPath": "D:\\Completed\\OMS_ORDER_ID_LAMBDA\\OMS_ORDER_ID_TRAFFIC_LAMBDA.csproj",
+        "packagesPath": "C:\\Users\\f0ste\\.nuget\\packages\\",
+        "outputPath": "D:\\Completed\\OMS_ORDER_ID_LAMBDA\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\f0ste\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.201.4, )"
+            },
+            "AWSSDK.SQS": {
+              "target": "Package",
+              "version": "[3.7.200.7, )"
+            },
+            "Amazon.Lambda.Core": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Amazon.Lambda.Serialization.Json": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "GeoCoordinate.NetStandard1": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.61, )"
+            },
+            "JsonDiffer": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.3, )"
+            },
+            "libressl_native.redist": {
+              "target": "Package",
+              "version": "[3.7.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
